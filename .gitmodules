@@ -1,0 +1,9 @@
+[submodule "project-maven"]
+	path = project-maven
+	url = git@github.com:rlespinasse/jenkinsdsl__project-maven.git
+[submodule "jobs-and-seed"]
+	path = jobs-and-seed
+	url = git@github.com:rlespinasse/jenkinsdsl__jobs-and-seed.git
+[submodule "master-docker"]
+	path = master-docker
+	url = git@github.com:rlespinasse/jenkinsdsl__master-docker.git
