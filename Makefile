@@ -1,13 +1,13 @@
-startMaster:
+startMasterDocker:
 	cd master-docker; $(MAKE) start
 
-buildMaster:
+buildMasterDocker:
 	cd master-docker; $(MAKE) build
 
-debug:
+debugJobsAndSeed:
 	cd jobs-and-seed; $(MAKE) debug
 
-seed:
+publishSeed:
 	cd jobs-and-seed; ./gradlew rest -DbaseUrl='http://$(shell docker-machine ip default):8080/' \
 	        -Dpattern='jobs/seed.groovy' -Dusername=admin -Dpassword=adminjenkins
 
