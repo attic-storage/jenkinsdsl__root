@@ -7,3 +7,6 @@
 [submodule "master-docker"]
 	path = master-docker
 	url = git@github.com:rlespinasse/jenkinsdsl__master-docker.git
+[submodule "workflowLibs"]
+	path = workflowLibs
+	url = git@github.com:rlespinasse/jenkinsdsl__workflowLibs.git
